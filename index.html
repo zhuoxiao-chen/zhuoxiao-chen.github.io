@@ -9,8 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="description" content="Mr Chen is currently a research assistant at The University of Queensland.">
-  <meta name="keywords" content="Zhuoxiao Chen, 陈卓潇, Ivan Chen, Zhuoxiao (Ivan) Chen, Zhuoxiao, Chen, Deep Learning, Domain Adaptation,
-                                 UQ, University of Queensland, The University of Queensland, Computer, Vision">
+  <meta name="keywords" content="Zhuoxiao Chen, 陈卓潇, Ivan Chen, Zhuoxiao (Ivan) Chen, Zhuoxiao, Chen, Deep Learning, Domain Adaptation, UQ, University of Queensland, The University of Queensland, Computer, Vision">
   <meta name="author" content="Zhuoxiao Chen" />
 
   <link rel="stylesheet" href="w3.css">
@@ -20,7 +19,7 @@
   body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; ;}
   </style>
 
-  <link rel="icon" type="image/png" href="images/icons.png">
+  <link rel="icon" type="image/png" href="images/uq-icon.jpg">
   <!--
   <script src="jquery.min.js"></script>
   <script>
@@ -63,17 +62,17 @@
   <div class="w3-padding-64 w3-text-light-grey w3-large" style="font-weight:bold">
     <a href="#home" class="w3-bar-item w3-button">Home</a>
     <a href="#news" class="w3-bar-item w3-button">News</a>
-    <a href="#projects" class="w3-bar-item w3-button">Projects</a>
-    <a href="#talks" class="w3-bar-item w3-button">Talks</a>
-    <a href="#publications" class="w3-bar-item w3-button">Research</a>
-    <a href="#service" class="w3-bar-item w3-button">Services</a>
+    <a href="#experience" class="w3-bar-item w3-button">Experience</a>
+    <!-- <a href="#talks" class="w3-bar-item w3-button">Talks</a> -->
+    <a href="#publications" class="w3-bar-item w3-button">Publication</a>
+    <!-- <a href="#service" class="w3-bar-item w3-button">Services</a> -->
     <a href="#award" class="w3-bar-item w3-button">Awards</a>
   </div>
 </nav>
 
 <!-- Top menu on small screens -->
 <header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
-  <div class="w3-bar-item w3-padding-24">IVAN</div>
+  <img style="width: 90%;margin-left: 5%; padding-top: 8px; max-width: 200px" alt="UQ-LOGO" src="images/UQ-Logo-2.png">
   <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right"  style="font-stretch: extra-expanded;" onclick="w3_open()"><b>≡</b></a>
   </div>
 </header>
@@ -90,11 +89,17 @@
 <!-- The Home Section -->
     <div class="w3-container w3-center w3-padding-32" id="home" 
          style="display: flex;align-items: center;justify-content: center;flex-wrap: wrap;flex-direction: row;align-content: center;">
-      <img style="width: 100%;max-width: 280px;" src="images/ivan.jpg">
+      <img style="width: 25%;min-width: 200px;max-width: 240px; border-radius: 10px;" src="images/ivan.jpg">
 <!--       <p class="w3-justify" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-left:auto;max-width:600px"> </p> -->
       <div style="padding: 0 3%;">
-      <h1>Zhuoxiao Chen [陈卓潇]</h1>
-      <p class="w3-justify" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;max-width:600px">
+      <div style="
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;"><h1>Zhuoxiao Chen</h1> <h3>[陈卓潇]</h3></div>
+      
+      <p class="w3-justify" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;max-width:800px">
           Zhuoxiao (Ivan) Chen is a research assistant and computer science (Honours) student in the 
           <a href="https://itee.uq.edu.au/">School of Information Technology and Electrical Engineering (ITEE)</a>
           at <a href="https://www.uq.edu.au/">The University of Queensland (UQ)</a>, Australia. 
@@ -118,7 +123,7 @@
 <!-- The News Section -->
   <div class="w3-container w3-light-grey w3-padding-32" id="news">
    <h2>News</h2>
-    <p><li> 10/2021, one paper has been accepted by <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385">ACM MMAsia</a>.</li></p>
+    <p><li> 10/2021, one paper has been accepted by <a href="https://www.acmmmasia.org/">ACM MMAsia</a></li></p>
 <!--       <p><li> 05/2021, one paper has been accepted by <a href="https://icml.cc/">ICML 2021</a>.</li></p>
       <p><li> 05/2021, I have been selected as a Senior Area Chair for <a href="http://valser.org/">VALSE 2021</a>.</li></p>
       <p><li> 03/2021, I accepted the invitation to serve as an Area Chair for <a href="https://nips.cc/Conferences/2021/">NeurIPS 2021</a>.</li></p>
@@ -139,21 +144,41 @@
       -->
 
   </div>
-<!-- The Projects Section -->
-  <div class="w3-container w3-padding-32" id="projects">
-    <h2>Recent Projects</h2>
-    <p class="w3-justify">
-        Actually, model compression is a kind of technique for developing portable deep neural networks with lower memory and computation costs. I have done several projects in Huawei including some smartphones' applications in 2019 and 2020 (e.g. Mate 30 and Honor V30). Currently, I am leading the AdderNet project, which aims to develop a series of deep learning models using only additions (<a href="https://www.reddit.com/r/MachineLearning/comments/ekw2s1/r_addernet_do_we_really_need_multiplications_in/">Discussions on Reddit</a>).
-    </p>
 
-        <h4><li>Adder Neural Networks</li></h4>
+
+
+
+<!-- The Experience Section -->
+  <div class="w3-container w3-padding-32" id="experience">
+    <h2>Experience</h2>
+
+    <p><li> 07/2021 - now, <strong>Research Assistant (RA) </strong> at ITEE, UQ</li></p>
+    <p><li> 08/2021 - 09/2021, <strong>Software Engineer</strong> for collaborative project (ITEE, UQ and <a href="https://www.logan.qld.gov.au/">Logon City Council, Australia</a>) on intelligent platform for automated road defect detection and asset management [ <a style="color: #447ec9" href="https://arxiv.org/abs/2109.00522">project</a> ]</li></p> 
+    <p><li> 06/2021 - 07/2021, <strong>Winter Research Scholar</strong> of <a href="https://scholarships.uq.edu.au/scholarship/winter-research-program">Winter Research Program</a> at UQ</li></p>
+    <p><li> 02/2020 - 07/2020, <strong>Teaching Assistant (TA)</strong> for master level course <a href="https://my.uq.edu.au/programs-courses/course.html?course_code=INFS7202"> INFS7202 Web Information System </a> at ITEE, UQ</li></p>
+    <p><li> 03/2021, <strong>Web Developer </strong> for <a href="https://mmasia2021.uqcloud.net/"> ACM Multimedia Asia 2021 Official Website </a> </li></p>
+    <p><li> 07/2020 - 11/2020, <strong>Team Leader</strong> of software development team - Dodo Lab in course <a href="https://my.uq.edu.au/programs-courses/course.html?course_code=DECO3801">deco3801</a> of ITEE, UQ. The developed product is CovidStopper
+    	[ <a style="color: #447ec9" href="https://drive.google.com/file/d/1OIK1LD6SeN1Td5xjFoqbifmPVMy6L7Ie/view?usp=sharing">commercial end</a> ][
+    	<a style="color: #447ec9" href="https://drive.google.com/file/d/1Wx4ZQ3okz9F56wITXvNiyPvjty1teB0r/view?usp=sharing">general end</a> ][
+    	<a style="color: #447ec9" href="https://drive.google.com/file/d/1QxxJUis61TRrZKBzAJ10uvrCgr1lPt-z/view?usp=sharing">lab staff end</a> ]
+    </li></p>
+
+    
+    
+
+
+    <!-- <p class="w3-justify">
+        Actually, model compression is a kind of technique for developing portable deep neural networks with lower memory and computation costs. I have done several projects in Huawei including some smartphones' applications in 2019 and 2020 (e.g. Mate 30 and Honor V30). Currently, I am leading the AdderNet project, which aims to develop a series of deep learning models using only additions (<a href="https://www.reddit.com/r/MachineLearning/comments/ekw2s1/r_addernet_do_we_really_need_multiplications_in/">Discussions on Reddit</a>).
+    </p> -->
+
+        <!-- <h4><li>Adder Neural Networks</li></h4>
         <img style="width:96%;" src="images/AdderNet.jpg"> 
         <p class="w3-justify">
         <a style="color: #447ec9" href="https://github.com/huawei-noah/AdderNet">Project Page</a> | <a style="color: #447ec9" href="https://arxiv.org/pdf/2101.10015.pdf">Hardware Implementation</a>
         </p>
         <p class="w3-justify">
         I would like to say, <span style="color:red">AdderNet is very cool!</span> The initial idea was came up in about 2017 when climbing with some friends at Beijing. By replacing all convolutional layers (except the first and the last layers), we now can obtain comparable performance on ResNet architectures. In addition, to make the story more complete, we recent release the hardware implementation and some quantization methods. The results are quite encouraging, we can reduce both <strong>the energy consumption and thecircuit areas significantly without affecting the performance</strong>. Now, we are working on more applications to reduce the costs of launching AI algorithms such as low-level vision, detection, and NLP tasks.
-        </p> 
+        </p>  -->
 <!-- 
         <h4><li>GhostNet on MindSpore: SOTA Lightweight CV Networks</li></h4>
         <img style="width:96%;" src="images/GhostNet.png"> 
@@ -185,30 +210,30 @@
 
 
  <!-- The Publications Section -->
-  <div class="w3-container w3-padding-32"" id="publications">
-    <h2>Research</h2>
-      <p class="w3-left-align" style="line-height:200%">
-        I'm interested in devleoping <strong>efficient models</strong> for computer vision (e.g. classification, detection, and super-resolution) using pruning, quantization, distilaltion, NAS, etc.
-      </p>
+  <div class="w3-container w3-light-grey w3-padding-32"" id="publications">
+    <h2>Publication</h2>
+ <!--      <p class="w3-left-align" style="line-height:200%">
+        Ivan is interested in devleoping <strong>efficient models</strong> for computer vision (e.g. classification, detection, and super-resolution) using pruning, quantization, distilaltion, NAS, etc.
+      </p> -->
     <h4> Conference Papers:</h4>
 
     <ol>
       
-       <p>
-      <li><strong>Winograd Algorithm for AdderNet</strong>
-      <br>
-      Wenshuo Li, Hanting Chen, Mingqiang Huang, Xinghao Chen, Chunjing Xu, <strong>Yunhe Wang</strong>
-      <br>
-      <em>ICML</em> 2021 | <a style="color: #447ec9" href="https://arxiv.org/pdf/2105.05530.pdf">paper</a>
-      </p>
-<!--
       <p>
-      <li><strong>Distilling Object Detectors via Decoupled Features</strong>
+      <li><strong>Conditional Extreme Value Theory for Open Set Video Domain Adaptation</strong>
       <br>
-      Jianyuan Guo, Kai Han, <strong>Yunhe Wang</strong>, Wei Zhang, Chunjing Xu, Chang Xu
+      <strong>Zhuoxiao Chen</strong>, Yadan Luo, Mahsa Baktashmotlagh
       <br>
-      <em>CVPR</em> 2021
-      </p> -->
+      <em>MMAsia</em> 2021 | <a style="color: #447ec9" href="https://arxiv.org/abs/2109.00522">paper</a>
+      </p>
+
+      <p>
+      <li><strong>RoadAtlas: Intelligent Platform for Automated Road Defect Detection and Asset Management.</strong>
+      <br>
+      <strong>Zhuoxiao Chen</strong>, Yiyun Zhang, Yadan Luo, Zijian Wang, Jinjiang Zhong, Anthony Southon
+      <br>
+      <em>arXiv</em> 2021 | <a style="color: #447ec9" href="https://arxiv.org/abs/2109.03385">paper</a>
+      </p>
 
 <!--       <p>
       <li><strong>HourNAS: Extremely Fast Neural Architecture Search Through an Hourglass Lens</strong>
@@ -343,10 +368,10 @@
       </p> -->
 
      
-
+<!--
       </ol>
 
-      <h4> Journal Papers:</h4>
+       <h4> Journal Papers:</h4>
 
       <ol>
 
@@ -356,7 +381,7 @@
       Shuo Yang, Minjing Dong, <strong>Yunhe Wang</strong>, Chang Xu
       <br>
       <em>IEEE TNNLS</em> 2020 |<a style="color: #447ec9" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9158560">paper</a>
-      </p>
+      </p> -->
   
 <!--       <p>
       <li><strong>Learning Student Networks via Feature Embedding</strong>
@@ -393,31 +418,35 @@
       </ol>
 
     </p>
-  </div> -->
+  </div> 
 
 <!-- The Services Section -->
-  <div class="w3-container w3-light-grey w3-padding-32" id="service">
+<!--   <div class="w3-container w3-light-grey w3-padding-32" id="service">
     <h2>Services</h2>
       <p><li> Area Chair of <a href="https://icml.cc/Conferences/2021">ICML 2021</a>, <a href="https://nips.cc/Conferences/2021/">NeurIPS 2021</a>.</p>
-<!--       <p><li> Senior Program Committee Members of <a href="https://ijcai-21.org/">IJCAI 2021</a>, <a href="https://www.ijcai20.org/">IJCAI 2020</a> and <a href="https://www.ijcai19.org/program-committee.html">IJCAI 2019</a>.</p>
+      <p><li> Senior Program Committee Members of <a href="https://ijcai-21.org/">IJCAI 2021</a>, <a href="https://www.ijcai20.org/">IJCAI 2020</a> and <a href="https://www.ijcai19.org/program-committee.html">IJCAI 2019</a>.</p>
       <p><li> Journal Reviewers of <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34">IEEE T-PAMI</a>, <a href="https://www.springer.com/journal/11263">IJCV</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83">IEEE T-IP</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385">IEEE T-NNLS</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046">IEEE T-MM</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=69">IEEE T-KDE</a>, etc.</p>
-      <p><li> Program Committee Members of ICCV 2021, AAAI 2021, ICLR 2021, NeurIPS 2020, ICML 2020, ECCV 2020, CVPR 2020, ICLR 2020, AAAI 2020, ICCV 2019, CVPR 2019, ICLR 2019, AAAI 2019, IJCAI 2018, AAAI 2018, NeurIPS 2018, etc.</p> -->
-  </div>
+      <p><li> Program Committee Members of ICCV 2021, AAAI 2021, ICLR 2021, NeurIPS 2020, ICML 2020, ECCV 2020, CVPR 2020, ICLR 2020, AAAI 2020, ICCV 2019, CVPR 2019, ICLR 2019, AAAI 2019, IJCAI 2018, AAAI 2018, NeurIPS 2018, etc.</p>
+  </div> -->
 
   <!-- The Awards Section -->
   <div class="w3-container w3-padding-32" id="award">
     <h2>Awards</h2>
-    <p><li> 2020, <a href="https://mp.weixin.qq.com/s/dORL01lgFNDHgjp3KMJmiQ">Nomination for Outstanding Youth Paper Award</a>, <a href="https://worldaic.com.cn/portal/en/aboutus.html">WAIC</a></p>               
+    <p><li> 07/2021, <strong>Certificate of Recognition</strong>, in recognition of Zhuoxiao’s dedication, enthusiasm and commitment to excellence in research</p>     
+    <p><li> 12/2020, <strong>UQ Excellence Scholarship for International Students</strong>, this scholarship provided by UQ covers 20% of your tuition fees per year, for GPA top 5% students only</p>  
+    <p><li> Semester 1 & 2 in 2020, Semester 1 in 2021, <strong>Dean’s Commendation for Academic Excellence</strong>, The Faculty of Engineering, Architecture and Information Technology, has determined that students who demonstrate excellence in academic performance should receive acknowledgement of the achievement</p>           
 <!--     <p><li> 2017, <a href="https://research.google/outreach/phd-fellowship/recipients/?category=2017">Google PhD Fellowship</a></p>
     <p><li> 2017, <a href="http://scholarship.baidu.com/">Baidu Scholarship</a></p>
     <p><li> 2017, President's PhD Scholarship, Peking University</p>
     <p><li> 2017, National Scholarship for Graduate Students</p> -->
-    <p><li> 2016, National Scholarship for Graduate Students</p>
+    <!-- <p><li> 2016, National Scholarship for Graduate Students</p> -->
   </div>  
+
+
 
   <div class="w3-light-grey w3-center w3-padding-24">
 
-    Welcome to use this website's <a href="https://github.com/YunheWang/HomePage">source code</a>, just add a link back to here. <a href="https://www.wangyunhe.site/">&#10025;</a></br>
+    Welcome to use this website's <a href="https://github.com/zhuoxiao-chen/zhuoxiao-chen.github.io">source code</a>, just add a link back to here. <a href="https://zhuoxiao-chen.github.io">&#10025;</a></br>
 
   <!-- Default Statcounter code for Yunhe Wang's Homepage
   https://www.wangyunhe.site -->
