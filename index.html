@@ -54,13 +54,12 @@
 </head>
 
 
-<body class="w3-content" style="max-width:1000px">
+<body class="w3-content" style="max-width:100%">
 
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-bar-block w3-black w3-collapse w3-top w3-right" style="z-index:3;width:150px" id="mySidebar">
+<nav class="w3-sidebar w3-bar-block w3-black w3-collapse w3-top w3-right" style="z-index:3;width:200px" id="mySidebar">
 
-  <img style="width: 90%;margin-left: 5%;
-   auto;max-width: 260px" alt="UQ-LOGO" src="images/UQ-Logo-2.png">
+  <img style="width: 90%;margin-left: 5%; padding-top: 8px; max-width: 260px" alt="UQ-LOGO" src="images/UQ-Logo-2.png">
   <div class="w3-padding-64 w3-text-light-grey w3-large" style="font-weight:bold">
     <a href="#home" class="w3-bar-item w3-button">Home</a>
     <a href="#news" class="w3-bar-item w3-button">News</a>
@@ -83,17 +82,19 @@
 <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
 <!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:150px">
+<div class="w3-main" style="margin-left:200px">
 
   <!-- Push down content on small screens -->
   <div class="w3-hide-large" style="margin-top:83px"></div>
 
 <!-- The Home Section -->
-    <div class="w3-container w3-center w3-padding-32" id="home">
+    <div class="w3-container w3-center w3-padding-32" id="home" 
+         style="display: flex; flex-wrap: wrap;">
       <img style="width: 80%;max-width: 260px" alt="profile photo" src="images/ivan.jpg">
       <p class="w3-justify" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-left:auto;max-width:600px"> </p>
+      <div>
       <h1>Zhuoxiao Chen [陈卓潇]</h1>
-        <p class="w3-justify" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;max-width:600px">
+      <p class="w3-justify" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;max-width:600px">
           Zhuoxiao (Ivan) Chen is a research assistant and computer science (Honours) student in the 
           <a href="https://itee.uq.edu.au/">School of Information Technology and Electrical Engineering (ITEE)</a>
           at <a href="https://www.uq.edu.au/">The University of Queensland (UQ)</a>, Australia. 
@@ -111,6 +112,7 @@
           <a href="https://dblp.org/pid/63/8217-1.html"> DBLP </a> -->
         </p>
         </tbody></table>
+        </div>
   </div>
 
 <!-- The News Section -->
