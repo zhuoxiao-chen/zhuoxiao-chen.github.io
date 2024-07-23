@@ -151,6 +151,39 @@ Engineering, Architecture and Information Technology</li></p>
  <div class="w3-container w3-padding-32 " id="publications">
   <h2 style="text-align: center;">Publication</h2>
 
+   
+        <div class="w3-container w3-center " id="home" 
+       style="display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-wrap: wrap;
+       flex-direction: row;
+       align-content: center;padding: 8px 0px;">
+
+    <img style="width: 200px; border-radius: 10px; border-radius: 10px;" src="images/DPO.png">
+<!--       <p class="w3-justify" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-left:auto;max-width:600px"> </p> -->
+    <div style="padding: 0 2%;">
+ 
+    <p class="w3-justify" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;max-width:800px;margin-top:0px">
+      <strong>DPO: Dual-Perturbation Optimization for Test-time Adaptation in 3D Object Detection</strong><br>
+      <strong>Zhuoxiao Chen*</strong>, Zixin Wang*, Sen Wang, Zi Huang, Yadan Luo <br>
+      <em>MM</em> 2024 <br>
+      <a style="color: #447ec9;  text-decoration: none" href="https://arxiv.org/abs/2406.13891">[arXiv]</a> 
+      <a style="color: #447ec9; text-decoration: none" href="https://github.com/Jo-wang/DPO">[code]</a>
+      <br>
+we propose dual-perturbation optimization (DPO) for Test-Time Adaptation for 3D Object Detection (TTA-3OD). 
+      We minimize the sharpness to cultivate a flat loss landscape to ensure model resiliency to minor data variations, 
+      thereby enhancing the generalization of the adaptation process. 
+      To fully capture the inherent variability of the test point clouds, 
+      we further introduce adversarial perturbation to the input BEV features to better simulate the noisy test environment. 
+      As the dual perturbation strategy relies on trustworthy supervision signals, 
+      we utilize a reliable Hungarian matcher to filter out pseudo-labels sensitive to perturbations. 
+      Additionally, we introduce early Hungarian cutoff to avoid error accumulation from incorrect pseudo-labels by halting the adaptation process.
+    </p>
+      </div>
+  </div>
+
+   
 
      <div class="w3-container w3-center " id="home" 
        style="display: flex;
