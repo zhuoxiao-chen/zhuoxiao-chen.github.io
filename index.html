@@ -18,6 +18,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
 
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="w3.css">
 
   <style>
@@ -105,8 +109,11 @@
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: center;"><h1>Zhuoxiao (Ivan) Chen</h1> <h3>[陈卓潇]</h3></div>
-      
+    align-content: center;"><h1>Zhuoxiao (Ivan) Chen</h1> <h3 class="lxgw-wenkai-mono-tc-bold">[陈卓潇]</h3></div>
+  
+  <h4 class="lxgw-wenkai-mono-tc-bold">非淡泊无以明志 非宁静无以致远
+  </h4>
+
       <p class="w3-justify" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;max-width:800px">
           I am a PhD candidate at <a href="https://www.uq.edu.au/">The University of Queensland (UQ)</a>, Australia.
           My research focuses on 3D scene understanding and machine learning under the supervision of 
@@ -150,7 +157,39 @@ Engineering, Architecture and Information Technology</li></p>
   <h2 style="text-align: center;">Publication</h2>
 
    
-        <div class="w3-container w3-center " id="home" 
+
+  <div class="w3-container w3-center " id="home" 
+       style="display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-wrap: wrap;
+       flex-direction: row;
+       align-content: center;padding: 8px 0px;">
+
+    <img style="width: 200px; border-radius: 10px; border-radius: 10px;" src="images/dipex.png">
+<!--       <p class="w3-justify" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-left:auto;max-width:600px"> </p> -->
+    <div style="padding: 0 2%;">
+ 
+    <p class="w3-justify" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;max-width:800px;margin-top:0px">
+      <strong>DiPEx: Dispersing Prompt Expansion for Class-Agnostic Object Detection</strong><br>
+      Jia Syuen Lim*, <strong>Zhuoxiao Chen*</strong>, Mahsa Baktashmotlagh, Zhi Chen, Xin Yu, Zi Huang, Yadan Luo <br>
+      <em>NeurIPS</em> 2024 <br>
+      <a style="color: #447ec9;  text-decoration: none" href="https://arxiv.org/abs/2406.14924">[arXiv]</a> 
+      <a style="color: #447ec9; text-decoration: none" href="https://github.com/jason-lim26/DiPEx">[code]</a>
+      <br> Class-agnostic object detection (OD) can be a cornerstone or a bottleneck for many downstream vision tasks. 
+      Despite considerable advancements in bottom-up and multi-object discovery methods that leverage basic visual cues to 
+      identify salient objects, consistently achieving a high recall rate remains difficult due to the diversity of object types and 
+      their contextual complexity. 
+      In this work, we investigate using vision-language models (VLMs) to enhance object detection via a self-supervised prompt learning strategy. 
+    </p>
+      </div>
+  </div>
+
+
+
+
+
+  <div class="w3-container w3-center " id="home" 
        style="display: flex;
        align-items: center;
        justify-content: center;
@@ -168,8 +207,7 @@ Engineering, Architecture and Information Technology</li></p>
       <em>MM</em> 2024 <br>
       <a style="color: #447ec9;  text-decoration: none" href="https://arxiv.org/abs/2406.13891">[arXiv]</a> 
       <a style="color: #447ec9; text-decoration: none" href="https://github.com/Jo-wang/DPO">[code]</a>
-      <br>
-we propose dual-perturbation optimization (DPO) for Test-Time Adaptation for 3D Object Detection (TTA-3OD). 
+      <br> We propose dual-perturbation optimization (DPO) for Test-Time Adaptation for 3D Object Detection (TTA-3OD). 
       We minimize the sharpness to cultivate a flat loss landscape to ensure model resiliency to minor data variations, 
       thereby enhancing the generalization of the adaptation process. 
       To fully capture the inherent variability of the test point clouds, 
@@ -312,7 +350,7 @@ hypothesis adaptation.
   <p><li> <strong> CVPR </strong> in 2024
   <p><li> <strong> ECCV </strong> in 2024
   <p><li> <strong> ACM MM </strong> in 2023, 2024
-  <br>
+  <br><br>
   and top journals: 
   <p><li> <strong> IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) </strong> in 2024
   <p><li> <strong> IEEE Transactions on Circuits and Systems for Video Technology (TCSVT) </strong> in 2024
