@@ -161,6 +161,37 @@ Engineering, Architecture and Information Technology</li></p>
   <h2 style="text-align: center;">Publication</h2>
 
 
+     <div class="w3-container w3-center " id="home" 
+       style="display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-wrap: wrap;
+       flex-direction: row;
+       align-content: center;padding: 8px 0px;">
+
+    <img style="width: 200px; border-radius: 10px; border-radius: 10px;" src="images/orapo.png">
+<!--       <p class="w3-justify" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-left:auto;max-width:600px"> </p> -->
+    <div style="padding: 0 2%;">
+ 
+    <p class="w3-justify" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;max-width:800px;margin-top:0px">
+      <strong>OraPO: Oracle-educated Reinforcement Learning for Data-efficient and Factual Radiology Report Generation</strong><br>
+      <strong>Zhuoxiao Chen</strong>, Hongyang Yu, Ying Xu, Yadan Luo, Long Duong, Yuan-Fang Li <br>
+      <em>CVPR</em> 2026 <br>
+      <a style="color: #447ec9;  text-decoration: none" href="https://ieeexplore.ieee.org/abstract/document/11163594/">[paper]</a> 
+      <a style="color: #447ec9;  text-decoration: none" href="https://arxiv.org/abs/2310.10391">[arXiv]</a> 
+      <a style="color: #447ec9; text-decoration: none" href="https://github.com/Luoyadan/CRB-active-3Ddet/tree/Open-CRB">[code]</a>
+      <br> 
+      In this paper, we propose Oracle-educated GRPO (OraPO) with a FactScore-based reward (FactS) to tackle the radiology report generation (RRG task) under constrained budgets. 
+      OraPO enables single-stage, RL-only training by converting failed GRPO explorations on rare or difficult studies into direct preference supervision via a 
+      lightweight oracle step. FactS grounds learning in diagnostic evidence by extracting atomic clinical facts and checking entailment against ground-truth labels, 
+      yielding dense, interpretable sentence-level rewards. 
+      Together, OraPO and FactS create a compact and powerful framework that significantly improves learning efficiency on clinically challenging cases, 
+      setting the new SOTA performance on the CheXpert Plus dataset (0.341 in F1) with 2--3 orders of magnitude less training data using a small base VLM on modest hardware.
+    </p>
+      </div>
+  </div>
+   
+
 
   <div class="w3-container w3-center " id="home" 
        style="display: flex;
